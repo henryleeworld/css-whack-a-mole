@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="打地鼠" />
+        <meta property="og:description" content="每個洞裡都有一隻地鼠，內部設計使地鼠能上下移動，當遊戲開始時，地鼠會隨機從洞中冒出，遊戲的目標是點選地鼠，使地鼠回到洞中，以增加玩家的分數。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="css/whack-a-mole.css" />
+        <title>打地鼠</title>
+    </head>
+    <body>
+        <input type="radio" id="mole-0" name="mole-0" />
+        <input type="radio" id="mole-1" name="mole-1" />
+        <input type="radio" id="mole-2" name="mole-2" />
+        <input type="radio" id="mole-3" name="mole-3" />
+        <input type="radio" id="mole-4" name="mole-4" />
+        <input type="radio" id="mole-5" name="mole-5" />
+        <input type="radio" id="mole-6" name="mole-6" />
+        <input type="radio" id="mole-7" name="mole-7" />
+        <input type="radio" id="mole-8" name="mole-8" />
+        <input type="radio" id="mole-9" name="mole-9" />
+        <input type="radio" id="mole-10" name="mole-10" />
+        <input type="radio" id="mole-11" name="mole-11" />
+        <input type="radio" id="mole-12" name="mole-12" />
+        <input type="radio" id="mole-13" name="mole-13" />
+        <input type="radio" id="mole-14" name="mole-14" />
+        <input type="radio" id="mole-15" name="mole-15" />
+        <input type="radio" id="mole-16" name="mole-16" />
+        <input type="radio" id="mole-17" name="mole-17" />
+        <input type="radio" id="mole-18" name="mole-18" />
+        <input type="radio" id="mole-19" name="mole-19" />
+
+        <div id="timer">剩餘時間 </div>
+        <div id="moles" class="number">打到地鼠： </div>
+        <div id="perspective">
+            <div id="canvas">
+                <div id="board">
+                    <div>
+                        <label for="mole-0"></label>
+                        <label for="mole-9"></label>
+                        <label for="mole-19"></label>
+                    </div>
+                    <div>
+                        <label for="mole-7"></label>
+                        <label for="mole-16"></label>
+                    </div>
+                    <div>
+                        <label for="mole-2"></label>
+                    </div>
+                    <div>
+                        <label for="mole-6"></label>
+                        <label for="mole-10"></label>
+                        <label for="mole-11"></label>
+                    </div>
+                    <div>
+                        <label for="mole-8"></label>
+                        <label for="mole-14"></label>
+                        <label for="mole-18"></label>
+                    </div>
+                    <div>
+                        <label for="mole-4"></label>
+                        <label for="mole-12"></label>
+                    </div>
+                    <div>
+                        <label for="mole-3"></label>
+                        <label for="mole-15"></label>
+                    </div>
+                    <div>
+                        <label for="mole-5"></label>
+                        <label for="mole-17"></label>
+                    </div>
+                    <div>
+                        <label for="mole-1"></label>
+                        <label for="mole-13"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="results">
+            <h1>遊戲結束</h1>
+            <h2>您打到 20 隻其中 <span class="number"></span> 隻地鼠！</h2>
+            <h3>感謝遊玩！</h3>
+            <p>重新載入頁面以重新遊玩</p>
+        </div>
+    </body>
+</html>
